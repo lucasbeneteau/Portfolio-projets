@@ -33,7 +33,6 @@ L'environnement simule une entreprise avec :
 - **utilisateurs**
 - **groupes**
 
----
 
 ### 2 — Mise en place du VPN site-à-site
 
@@ -44,7 +43,7 @@ Configuration d'un **tunnel VPN IPsec entre les deux sites** avec **pfSense** :
 - définition des réseaux locaux
 - tests de connectivité entre les sites
 
----
+
 
 ### 3 — Déploiement de GPO
 
@@ -54,7 +53,7 @@ Création et application de **Group Policy Objects** :
 - disques amovibles non autorisés, sauf pour le service IT
 - L’outil f.lux doit être déployé sur le poste de Ana Garcia du site de Nantes.
 
----
+
 
 ### 4 — Installation du RODC sur le site distant
 
