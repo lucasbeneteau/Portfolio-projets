@@ -38,7 +38,7 @@ Automatisation du déploiement de ressources Azure avec :
 - Microsoft Azure
 - Azure Virtual Machines
 - Azure Virtual Network
-- Azure entra ID
+- Azure Entra ID
 - Azure Storage
 - RBAC
 - Bicep
