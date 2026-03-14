@@ -26,7 +26,7 @@ Fonctionnalités implémentées :
 
 ## Schéma réseau
 
-![Architecture réseau](schema_reseau.png)
+![schema_reseau.png](schema-reseau.png)
 
 
 ## Étapes de réalisation
