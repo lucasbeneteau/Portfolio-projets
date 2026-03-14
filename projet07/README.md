@@ -1,4 +1,4 @@
-# Projet 07 — Simulation réseau Cisco
+# Projet 08 — Simulation réseau Cisco
 
 ## Objectif
 Concevoir et simuler une infrastructure réseau d'entreprise sous **Cisco Packet Tracer** intégrant segmentation réseau, routage dynamique, redondance et sécurité.
