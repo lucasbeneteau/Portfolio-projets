@@ -17,7 +17,7 @@ L'infrastructure repose sur trois couches distinctes :
 
 ## Schéma d’architecture
 
-
+![Architecture 3-Tier](images/architecture-3tier.png)
 
 
 ---
