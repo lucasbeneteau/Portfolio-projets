@@ -1,0 +1,4 @@
+zone "beesafe.co" {
+    type master;
+    file "/etc/bind/db.beesafe.co";
+};

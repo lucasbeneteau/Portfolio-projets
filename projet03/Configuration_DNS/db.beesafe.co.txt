@@ -1,0 +1,18 @@
+$TTL 86400
+@   IN  SOA ns1.beesafe.co. admin.beesafe.co. (
+        2024021402  ; Serial
+        3600        ; Refresh
+        1800        ; Retry
+        604800      ; Expire
+        86400 )     ; Minimum TTL
+
+; Serveur DNS principal
+@   IN  NS  ns1.beesafe.co.
+ns1 IN  A   10.0.0.18  ; Adresse IP du serveur DNS
+
+; Serveur Web Apache
+@   IN  A   10.0.0.16  ; Adresse IP de beesafe.co.
+www IN  A   10.0.0.16  ; 
+
+; Serveur SQL: Sous-domaine db.beesafe.co
+db   IN  A   10.0.0.17 ; 
