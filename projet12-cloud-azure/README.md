@@ -13,7 +13,7 @@ Infrastructure Azure comprenant :
 - **Virtual Network (VNet) et sous-réseaux**
 - **Network Security Groups (NSG)**
 - **Azure Storage**
-- **Azure Active Directory**
+- **Azure Entra ID**
 - **Accès sécurisé aux VM**
 
 ## Étapes réalisées
@@ -38,7 +38,7 @@ Automatisation du déploiement de ressources Azure avec :
 - Microsoft Azure
 - Azure Virtual Machines
 - Azure Virtual Network
-- Azure Active Directory
+- Azure entra ID
 - Azure Storage
 - RBAC
 - Bicep
