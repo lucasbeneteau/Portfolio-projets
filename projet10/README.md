@@ -25,7 +25,7 @@ La nouvelle architecture met en place :
 
 ![cartographie ancienne](ancienne_cartographie.png)
 
-## nouvelle cartographie :
+## Nouvelle cartographie :
 ![cartographie actuelle](nouvelle_cartographie.png)
 
 Le réseau est segmenté en plusieurs VLAN (Direction, Laboratoire, Études, Technique, Services, Administration).
