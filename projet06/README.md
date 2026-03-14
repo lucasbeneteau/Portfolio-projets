@@ -8,7 +8,7 @@ Concevoir l'architecture réseau d’un système d'information en définissant :
 - le **plan d’adressage IP**
 
 ## Schéma Logique
-![Schema logique](Schema logique.png)
+![Schema logique](Schema_logique.png)
 
 ## Stack technique
 
