@@ -1,0 +1,48 @@
+{
+  "vnetName": {
+    "value": "vnet-test"
+  },
+  "vnetAddress": {
+    "value": ["10.15.0.0/16"]
+  },
+  "subnets": {
+    "value": [
+      {
+        "name": "subnetfront",
+        "prefix": ["10.15.0.0/24"]
+      },
+      {
+        "name": "subnetback",
+        "prefix": ["10.15.1.0/24"]
+      }
+    ]
+  },
+"pipName": {
+  "value": "pip1"
+},
+"nsgName": {
+  "value": "nsgVM"
+},
+  "SubnetFrontName": {
+    "value": "subnetfront"
+  },
+  "nicNamesSubnetFront": {
+    "value": [
+      "nic-vm-web-01",
+      "nic-vm-web-02"
+    ]
+  },
+
+  "vms": {
+    "value": [
+      "vm-web-01",
+      "vm-web-02"
+    ]
+  },
+  "adminUsername": {
+    "value": "lucas"
+  },
+  "adminPassword": {
+    "value": "Password1234"
+  }
+}
