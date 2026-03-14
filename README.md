@@ -33,6 +33,5 @@ Ils couvrent l’administration système, les réseaux, la cybersécurité et le
 | Projet | Technologies | Objectif |
 | :--- | :--- | :--- |
 | Administration Azure (AZ-104) | Azure, VNet, NSG, RBAC | Déploiement et administration d’infrastructures cloud |
-| Infrastructure as Code Azure | Bicep, ARM Templates | Automatisation du déploiement d’infrastructure Azure |
 
 ---
