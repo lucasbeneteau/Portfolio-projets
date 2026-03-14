@@ -16,6 +16,10 @@ Deux stratégies de sauvegarde ont été mises en place :
 
 Les sauvegardes sont automatisées via **cron**.
 
+## Schéma infrastructure
+![Schéma](schema_infrastructure.png)
+
+
 ## Étapes de réalisation
 
 - Analyse du besoin et définition de la **stratégie de sauvegarde**
