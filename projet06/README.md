@@ -11,6 +11,7 @@ Le serveur **Nagios** joue également le rôle de **serveur central Rsyslog** af
 - **Serveur de supervision Nagios**
 - **Centralisation des logs avec Rsyslog**
 
+## status sondes nagios
 ![nagios](config_nagios.png)
  
 ## Étapes de réalisation
