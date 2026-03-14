@@ -1,4 +1,4 @@
-# Projet 09 — Hardening & Sécurisation de services Web
+# Projet 09 — Sécurisation service Web
 
 ## Objectif
 Mettre en place un **serveur web sécurisé** afin de protéger les services contre les attaques réseau et applicatives.
