@@ -1,8 +1,6 @@
 param location string
-@description('The administrator username for the virtual machine')
 param adminUsername string
 @secure()
-@description('The administrator password for the virtual machine')
 param adminPassword string
 
 param vms array
