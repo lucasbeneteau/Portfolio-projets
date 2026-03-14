@@ -1,0 +1,59 @@
+# Projet 11 — Pentest Active Directory
+
+## Objectif
+Réaliser un **test d’intrusion interne** sur un domaine Active Directory afin d’évaluer la sécurité du réseau et identifier les vulnérabilités permettant une **compromission du domaine**.
+
+## Architecture
+
+- **Contrôleur de domaine Active Directory**
+- **Serveur de fichiers**
+- **Poste utilisateur Windows**
+
+## Méthodologie
+
+Le pentest a suivi les étapes suivantes :
+
+- **Découverte réseau** : scan des ports et identification des services
+- **Énumération Active Directory** : LDAP, SMB, RPC
+- **Accès initial** : exploitation d’identifiants faibles
+- **Mouvements latéraux** : récupération d’identifiants et exploitation des partages
+- **Élévation de privilèges** : Kerberoasting, dump LSASS, dump DPAPI
+- **Compromission du domaine**
+
+Cette approche simule un **attaquant interne avec accès réseau initial**.
+
+## Vulnérabilités principales
+
+- Identifiants faibles (*user-as-pass*)
+- Mots de passe en clair dans scripts ou attributs AD
+- Politique de mot de passe faible
+- Réutilisation de mots de passe
+- Comptes exposés à **Kerberoasting**
+- Réutilisation du compte administrateur local
+- Dump de la mémoire **LSASS**
+- Connexions inappropriées de comptes administrateurs
+
+Ces failles ont permis une **escalade jusqu’à un accès administrateur du domaine**.
+
+## Plan de remédiation
+
+Principales recommandations :
+
+- renforcer la **politique de mot de passe**
+- supprimer les **identifiants stockés en clair**
+- déployer **Microsoft LAPS**
+- sécuriser les **comptes de service**
+- activer **Credential Guard**
+- mettre en place un **modèle d’administration par tiers (Tier 0/1/2)**
+
+Ces mesures permettent de réduire significativement les risques de compromission du domaine.
+
+## Stack technique
+
+- Kali Linux
+- Nmap
+- CrackMapExec
+- BloodHound / SharpHound
+- Hashcat
+- Mimikatz
+- Impacket
