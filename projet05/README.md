@@ -3,6 +3,8 @@
 ## Objectif
 Mettre en place une solution de **sauvegarde et restauration automatisée** à l'aide de **rsync**, avec différentes stratégies adaptées aux besoins de l'infrastructure.
 
+Les sauvegardes et restaurations sont exécutées depuis chaque serveur métier vers le serveur de sauvegarde.
+
 Deux stratégies de sauvegarde ont été mises en place :
 
 - **Sauvegarde incrémentale par domaine métier**
