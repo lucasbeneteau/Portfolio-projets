@@ -23,7 +23,7 @@ Ils couvrent l’administration système, réseau, cybersécurité et cloud.
 | Projet | Technologies | Objectif |
 | :--- | :--- | :--- |
 | Conception d’architecture réseau | VLAN, plan d’adressage, segmentation réseau | Conception d’une architecture réseau avec schéma physique, schéma logique VLAN et plan d’adressage IP |
-| Simulation réseau Cisco | Packet Tracer, VLAN, OSPF, HSRP, ACL, LACP | Configuration réseau avancée d’un réseau d’entreprise |
+| Simulation réseau Cisco | Packet Tracer, VLAN, OSPF, HSRP, ACL, LACP | Configuration d’un réseau d’entreprise |
 
 ---
 
