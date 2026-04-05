@@ -8,34 +8,30 @@ Projet réalisé dans le cadre de la préparation à la certification **AZ-104 :
 ## Architecture
 
 Infrastructure Azure comprenant :
-
-- **Machines virtuelles Azure**
 - **Virtual Network (VNet) et sous-réseaux**
+- **Peering**
 - **Network Security Groups (NSG)**
 - **LoadBalancer**
 - **Azure Bastion**
 - **Azure NatGateway**
 - **Azure Firewall**
+- **Machines virtuelles Azure**
 - **Azure Storage**
 - **Azure Entra ID**
-- **Accès sécurisé aux VM**
+- **Azure backup**
 
 ## Étapes réalisées
-
-- Création et gestion de **Resource Groups**
-- Déploiement de **machines virtuelles Linux et Windows**
-- Configuration du **réseau Azure (VNet, Subnets, NSG)**
 - Gestion des **identités et accès avec Entra ID et RBAC**
+- Création de **Resource Groups**
+- Déploiement du **réseau Azure (VNet, Subnets, NSG, Peering,Firewall,routeTable,Loadbalancer)**
+- Déploiement de **machines virtuelles**
 - Mise en place du **stockage Azure**
 - Configuration des **sauvegardes**
 - Supervision des ressources
 
 ## Infrastructure as Code
 
-Automatisation du déploiement de ressources Azure avec :
-
-- **Bicep**
-- **ARM Templates (JSON)**
+Automatisation du déploiement de ressources Azure avec **Bicep**
 
 ## Stack technique
 
@@ -46,4 +42,3 @@ Automatisation du déploiement de ressources Azure avec :
 - Azure Storage
 - RBAC
 - Bicep
-- ARM Templates (JSON)
