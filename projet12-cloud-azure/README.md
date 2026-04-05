@@ -12,6 +12,10 @@ Infrastructure Azure comprenant :
 - **Machines virtuelles Azure**
 - **Virtual Network (VNet) et sous-réseaux**
 - **Network Security Groups (NSG)**
+- **LoadBalancer**
+- **Azure Bastion**
+- **Azure NatGateway**
+- **Azure Firewall**
 - **Azure Storage**
 - **Azure Entra ID**
 - **Accès sécurisé aux VM**
