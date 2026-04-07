@@ -1,6 +1,6 @@
 # Administrateur Systèmes, Réseaux et Sécurité
 
-Ce dépôt rassemble les projets réalisés durant et après ma formation.  
+Ce dépôt rassemble les projets réalisés durant ma formation.  
 Ils couvrent l’administration système, réseau, cybersécurité et cloud.
 
 ---
