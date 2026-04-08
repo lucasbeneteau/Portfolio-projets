@@ -1,4 +1,4 @@
-# (EN COURS) Projet 12 — Administration Cloud Azure (AZ-104)
+# Projet 12 — Administration Cloud Azure 
 
 ## Objectif
 Déployer et administrer une infrastructure **Microsoft Azure** en appliquant les bonnes pratiques de gestion des ressources, du réseau et de la sécurité.
