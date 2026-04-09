@@ -23,6 +23,11 @@ Le serveur **Nagios** joue également le rôle de **serveur central Rsyslog** af
 - Mise en place de la **centralisation des logs avec Rsyslog**
 - Collecte des logs Apache sur le serveur Nagios
 
+## Aperçu technique
+
+* [Voir indicateurs sondes](./indicateurs_sondes.pdf)
+* [Voir config Rsyslog](./config_Rsyslog)
+
 ## Stack technique
 
 - **Linux**
