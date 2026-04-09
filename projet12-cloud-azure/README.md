@@ -24,7 +24,7 @@ Infrastructure Azure comprenant :
 - Déploiement **machines virtuelles, interfaces réseau, loadbalancer**
 - Supervision des ressources
 
-Prochaine étape : extension de l'architecture avec des modules dédiés au Stockage et à la sauvegarde via Azure Backup.
+Prochaine étape : Déploiement du Stockage et Azure Backup.
 
 ## Infrastructure as Code
 
