@@ -41,6 +41,12 @@ Fonctionnalités implémentées :
 - Création des **ACL pour contrôler les accès**
 - Tests de connectivité entre les VLAN et les serveurs
 
+## Aperçu technique
+
+* [Voir plan d'adressage](./plan_adressage.xlsx)
+* [Voir config équipements cisco](./config_equipements.pdf)
+* [Voir preconisations cyber ANSSI](./preconisations_cyber.pdf)
+
 ## Stack technique
 
 - **Cisco Packet Tracer**
