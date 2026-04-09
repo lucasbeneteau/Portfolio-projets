@@ -31,9 +31,11 @@ Prochaine étape : Déploiement du Stockage et Azure Backup.
 Automatisation du déploiement de ressources Azure avec **Bicep**
 
 Le déploiement est structuré de manière modulaire pour favoriser la réutilisation du code et la clarté de l'infrastructure :
-* main.bicep :Point d'entrée unique (Orchestrateur)
-* Network : Déploiement du réseau
-* Compute : Déploiement des machines virtuelles, interfaces réseau, loadbalancer.
+* [main.bicep](./Bicep/main/main.bicep): Point d'entrée unique (Orchestrateur) 
+  * [network.bicep](./Bicep/main/module.main/network/network.bicep) Orchestrateur réseau
+    * [modules network](./Bicep/main/module.main/network/module.network): Déploiement du réseau
+  * [compute.bicep](./Bicep/main/module.main/compute/compute.bicep) Orchestrateur compute
+    * [modules compute](./Bicep/main/module.main/compute/module.compute): Déploiement des machines virtuelles, interfaces réseau, loadbalancer.
 
 ## Stack technique
 
