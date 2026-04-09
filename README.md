@@ -31,7 +31,7 @@ Ils couvrent l’administration système, réseau, cybersécurité et cloud.
 
 | Projet | Technologies | Objectif |
 | :--- | :--- | :--- |
-| Administration Azure | Azure, VNet, NSG, Entra ID, RBAC, Bicep | Déploiement et administration d’infrastructures cloud |
+| Administration Azure | Ressources Azure, Entra ID, RBAC, Bicep | Déploiement et administration d’infrastructures cloud |
 
 ---
 
