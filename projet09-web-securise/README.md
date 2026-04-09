@@ -34,6 +34,13 @@ L'infrastructure comprend :
 - Activation des protections **anti-DDoS et anti Slow Connection**
 - Tests de sécurité et validation du fonctionnement
 
+## Aperçu technique
+
+* [Voir certificats autosignés](./config_service_web/Certificats_autosigné)
+* [Voir Virtualhosts](./config_service_web/Virtualhosts)
+* [Voir mod evasive (anti ddos)](./config_service_web/evasive.conf)
+* [Voir application règles OWASP (mod security)](./config_service_web/security2.conf)
+
 ## Stack technique
 
 - **Linux**
