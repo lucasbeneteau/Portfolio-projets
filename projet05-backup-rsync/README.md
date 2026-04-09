@@ -28,7 +28,12 @@ Les sauvegardes sont automatisées via **cron**.
 - Planification des sauvegardes avec **cron**
 - Génération de **logs de sauvegarde et restauration**
 - Mise en place d'une **procédure de restauration**
-  
+
+## Aperçu technique
+* [Voir scripts sauvegardes incrémentale](./scripts_sauvegardes_incrémentales)
+* [Voir script sauvegarde différentielle](./script_sauvegardes_différentielles)
+* [Voir script restauration](./script_restauration)
+
 ## Stack technique
 
 - **Linux**
