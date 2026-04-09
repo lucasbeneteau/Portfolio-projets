@@ -5,9 +5,6 @@
 - Automatiser le déploiement de mises à jour et de logiciels (linux et windows) à l'aide d'Ansible.
 - Automatiser le montage des partages réseau selon l'utilisateur,sa hiérarchie, son groupe associé (Bash / PowerShell).
 
-## Ressources du projet
-* [Voir les scripts PowerShell/Bash](./scripts)
-
 ## Étapes de réalisation
 
 - Script **PowerShell** pour automatiser sur le serveur AD :
@@ -28,6 +25,10 @@
 
 - Import du **parc informatique dans GLPI** via plugin d’inventaire depuis fichier csv
 ---
+
+## Aperçu technique
+* [Voir scripts PowerShell/Bash](./scripts)
+
 
 ## Stack technique
 
