@@ -15,11 +15,14 @@ La nouvelle architecture met en place :
 
 - une **DMZ** pour isoler les services exposés
 - un **bastion d'administration**
+- un **poste d'administration**
 - un **VPN sécurisé pour les administrateurs**
 - une **segmentation réseau avec VLAN**
 - un **switch Layer 3 pour le routage inter-VLAN**
 - un **SIEM pour la journalisation**
 - un **serveur de sauvegarde**
+- la séparation des **serveurs de production** et des **serveurs d'admininistration**
+- la virtualisation uniquement pour les **serveurs de production**
 
  ## Ancienne cartographie :
 
