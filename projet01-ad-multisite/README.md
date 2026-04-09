@@ -6,6 +6,9 @@ Concevoir une **architecture d'identité centralisée et sécurisée** pour une 
 - d'un **siège (site principal)**
 - d'une **agence distante**
 
+## Aperçu technique
+
+
 ## Architecture du projet
 
 L'environnement simule une entreprise avec :
