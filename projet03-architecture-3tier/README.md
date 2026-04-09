@@ -28,6 +28,11 @@ L'infrastructure repose sur trois couches distinctes :
 - Configuration de la **communication entre les trois tiers**
 - Tests de fonctionnement de l'application
 
+## Aperçu technique
+
+* [Voir Code source](./Code%20source)
+* [Voir Configuration DNS](./Configuration_DNS)
+* [Voir Configuration Apache](./Configuration_apache)
 ## Stack technique
 
 - **Linux**
