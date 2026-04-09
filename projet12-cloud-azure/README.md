@@ -14,24 +14,26 @@ Infrastructure Azure comprenant :
 - **LoadBalancer**
 - **Azure Bastion**
 - **Azure NatGateway**
-- **Azure Firewall**
+- **Azure Firewall** et **routeTable**
 - **Machines virtuelles Azure**
-- **Azure Storage**
-- **Azure Entra ID**
-- **Azure backup**
 
 ## Étapes réalisées
 - Gestion des **identités et accès avec Entra ID et RBAC**
 - Création de **Resource Groups**
-- Déploiement du **réseau Azure (VNet, Subnets, NSG, Peering,Firewall,routeTable,Loadbalancer)**
-- Déploiement de **machines virtuelles**
-- Mise en place du **stockage Azure**
-- Configuration des **sauvegardes**
+- Déploiement du **réseau Azure (VNet, Subnets, NSG, Peering,Firewall,routeTable)**
+- Déploiement **machines virtuelles, interfaces réseau, loadbalancer**
 - Supervision des ressources
+
+Prochaine étape : extension de l'architecture avec des modules dédiés au Stockage et à la sauvegarde via Azure Backup.
 
 ## Infrastructure as Code
 
 Automatisation du déploiement de ressources Azure avec **Bicep**
+
+Le déploiement est structuré de manière modulaire pour favoriser la réutilisation du code et la clarté de l'infrastructure :
+* main.bicep :Point d'entrée unique (Orchestrateur)
+* Network : Déploiement du réseau
+* Compute : Déploiement des machines virtuelles, interfaces réseau, loadbalancer.
 
 ## Stack technique
 
@@ -39,6 +41,5 @@ Automatisation du déploiement de ressources Azure avec **Bicep**
 - Azure Virtual Machines
 - Azure Virtual Network
 - Azure Entra ID
-- Azure Storage
 - RBAC
 - Bicep
