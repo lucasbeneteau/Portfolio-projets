@@ -47,6 +47,9 @@ Elle couvre notamment :
 
 Par exemple, les administrateurs doivent utiliser **des comptes dédiés et nominatifs**, distincts de leurs comptes utilisateurs.
 
+## Aperçu technique
+* [Voir documentation cybersécurité](./documentation_cybersecurite.pdf)
+
 ## Stack technique
 
 - Architecture réseau sécurisée
