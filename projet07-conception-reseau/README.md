@@ -10,6 +10,10 @@ Concevoir l'architecture réseau d’un système d'information en définissant :
 ## Schéma Logique
 ![Schema logique](Schema_logique.png)
 
+## Aperçu technique
+* [Voir plan d'adressage](./plan_adressage.xlsx)
+* [Voir Schema physique](./Schema%20physique.png)
+
 ## Stack technique
 
 - **Réseaux TCP/IP**
