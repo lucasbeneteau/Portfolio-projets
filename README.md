@@ -1,9 +1,16 @@
 # Administrateur Systèmes, Réseaux et Sécurité
 
-Ce dépôt rassemble les projets réalisés durant ma formation.  
-Ils couvrent l’administration système, réseau, cybersécurité et cloud.
+J'ai suivi une formation intensive d'un an, construite autour de la réalisation de **12 projets professionnels**. Cette expérience m'a permis de développer une forte capacité d'auto-apprentissage et une rigueur technique éprouvée.
 
----
+Formation: Administrateur Systèmes, Réseaux et Sécurité | **Openclassrooms**
+### Méthodologie d'apprentissage
+* **80% Pratique / 20% Théorie** : Apprentissage en autonomie (recherche, documentation, implémentation).
+* **Cycle de livraison** : Pour chaque projet, réalisation de livrables professionnels.
+* **Validation** : Chaque projet se clôture par une **soutenance orale devant un jury d'experts** pour valider les compétences acquises et justifier les choix.
+* **Mentorat** : Un point de suivi hebdomadaire avec un tuteur expérimenté.
+
+Les projets couvrent l’administration système, réseau, cloud et cybersécurité.
+
 
 ## Systèmes
 
