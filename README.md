@@ -27,6 +27,14 @@ Ils couvrent l’administration système, réseau, cybersécurité et cloud.
 
 ---
 
+## Cloud
+
+| Projet | Technologies | Objectif |
+| :--- | :--- | :--- |
+| Administration Azure (AZ-104) | Azure, VNet, NSG, Entra ID, RBAC, Bicep | Déploiement et administration d’infrastructures cloud |
+
+---
+
 ## Cybersécurité
 
 | Projet | Technologies | Objectif |
@@ -35,10 +43,5 @@ Ils couvrent l’administration système, réseau, cybersécurité et cloud.
 | Sécurisation SI (ANSSI) | VLAN, Bastion, VPN, SIEM | Conception d’une architecture sécurisée selon les recommandations de l’ANSSI |
 | Pentest Active Directory | Kali Linux, BloodHound, CrackMapExec, Mimikatz | Test d’intrusion interne sur un domaine Active Directory |
 
----
 
-## Cloud
 
-| Projet | Technologies | Objectif |
-| :--- | :--- | :--- |
-| Administration Azure (AZ-104) | Azure, VNet, NSG, Entra ID, RBAC, Bicep | Déploiement et administration d’infrastructures cloud |
