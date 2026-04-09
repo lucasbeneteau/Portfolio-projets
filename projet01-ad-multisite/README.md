@@ -6,9 +6,6 @@ Concevoir une **architecture d'identité centralisée et sécurisée** pour une 
 - d'un **siège (site principal)**
 - d'une **agence distante**
 
-## Aperçu technique
-
-
 ## Architecture du projet
 
 L'environnement simule une entreprise avec :
@@ -67,6 +64,11 @@ Déploiement d'un **Read-Only Domain Controller** dans l'agence distante :
 - authentification locale des utilisateurs
 
 ---
+# Aperçu technique
+
+* [Voir utilisateurs et ordinateurs](./captures/utilisateurs_et_ordinateurs.png)
+* [Voir config VPN](./captures/config_VPN)
+* [Voir GPO](./captures/gpo)
 
 # Stack technique
 - **Windows Server**
