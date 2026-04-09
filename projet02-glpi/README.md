@@ -33,6 +33,11 @@ L'infrastructure repose sur une **stack LAMP** :
 - Rédaction d'une documentation sur **GLPI Agent**
 - Réalisation d’un **logigramme du processus de gestion des tickets**
 
+# Aperçu technique
+* [Voir dump tickets](./dump_sql_export.sql)
+* [Voir documentation agent GLPI](./documentation_agent_GLPI.pdf)
+* [Voir logigramme (cycle de vie d'un ticket)](./Logigramme.pdf)
+
 # Stack technique
 - Linux 
 - Apache
