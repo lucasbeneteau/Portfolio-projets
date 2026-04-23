@@ -1,7 +1,16 @@
-# Administrateur Systèmes, Réseaux et Sécurité
+# Projets Personnels
+
+| Projet | Technologies | Objectif |
+| :--- | :--- | :--- |
+| **[Cloud Automation & Zero Trust](./projet-devops)** | **Azure, Bicep, GitLab CI, Ansible, Docker** | **Automatisation complète d'une infrastructure (IaC) et déploiement applicatif sécurisé via pipeline CI/CD.** |
+
+---
+
+# Projets Formation
+"Administrateur Systèmes, Réseaux et Sécurité"  
 Organisme de formation: **OpenClassrooms**  
 
-Formation intensive d'un an articulée autour de 12 projets professionnels, ce parcours m'a permis de développer une forte capacité d'auto-apprentissage et une rigueur technique éprouvée sur des problématiques concrètes.
+Formation intensive d'un an articulée autour de 12 projets professionnels
 
 ### Méthodologie d'apprentissage
 * **80% Pratique / 20% Théorie** : Apprentissage en autonomie (recherche, documentation, implémentation).
