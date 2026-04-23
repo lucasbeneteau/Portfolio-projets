@@ -1,7 +1,7 @@
 # Administrateur Systèmes, Réseaux et Sécurité
 Organisme de formation: **OpenClassrooms**  
 
-Ayant réalisé une formation intensive d'un an articulée autour de 12 projets professionnels, ce parcours m'a permis de développer une forte capacité d'auto-apprentissage et une rigueur technique éprouvée sur des problématiques concrètes.
+Formation intensive d'un an articulée autour de 12 projets professionnels, ce parcours m'a permis de développer une forte capacité d'auto-apprentissage et une rigueur technique éprouvée sur des problématiques concrètes.
 
 ### Méthodologie d'apprentissage
 * **80% Pratique / 20% Théorie** : Apprentissage en autonomie (recherche, documentation, implémentation).
