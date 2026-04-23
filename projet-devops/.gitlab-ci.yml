@@ -1,0 +1,71 @@
+image: # image crée a partir de alpine:3.26
+  name: registry.gitlab.com/lucasbeneteau-group/lb-project/azure-cli-custom 
+  pull_policy: always
+
+stages:
+  - lint
+  - plan
+  - deploy
+  - build
+  - configure
+
+.azure_login:
+  script:
+    - az login --service-principal -u $AZURE_SP_DEPLOYER_ID -p $AZURE_SP_DEPLOYER_SECRET --tenant $AZURE_TENANT_ID
+
+lint_bicep:
+  stage: lint
+  script:
+    - az bicep build --file bicep/main.bicep
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+plan_azure:
+  stage: plan
+  script:
+    - !reference [.azure_login, script]
+    - az deployment group what-if --resource-group rgtest --template-file bicep/main.bicep --parameters bicep/parameters.bicepparam
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+
+deploy_azure:
+  stage: deploy
+  script:
+    - !reference [.azure_login, script]
+    - az group create -n rgtest -l westeurope
+    - sshPublicKey=$(echo "$SSH_PUBLIC_KEY" | base64 -d)
+    - az deployment group create --resource-group rgtest --template-file bicep/main.bicep --parameters bicep/parameters.bicepparam --parameters adminPublicKey="$sshPublicKey" > output.json
+    - ACR_NAME=$(jq -r .properties.outputs.acrName.value output.json)
+    - echo "ACR_NAME=$ACR_NAME" >> build.env
+  artifacts:
+    reports:
+      dotenv: build.env
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+deploy_build:
+  stage: build         
+  script:
+    - !reference [.azure_login, script]
+    - REGISTRY="${ACR_NAME}.azurecr.io"
+    - az acr login --name "$ACR_NAME"
+    - docker build -t ${REGISTRY}/mon-app:${CI_COMMIT_SHORT_SHA} -t ${REGISTRY}/mon-app:latest ./docker
+    - docker push ${REGISTRY}/mon-app:${CI_COMMIT_SHORT_SHA}
+    - docker push ${REGISTRY}/mon-app:latest
+
+deploy_app:
+  stage: configure
+  image: cytopia/ansible:latest-azure # image ansible et azure 
+  before_script:
+    - HOME="/home/ansible"
+    - az login --service-principal -u $AZURE_SP_DEPLOYER_ID -p $AZURE_SP_DEPLOYER_SECRET --tenant $AZURE_TENANT_ID
+    - az keyvault secret download --file ${HOME}/.ssh/key.b64 --vault-name monapp-dev-kv -n vm-ssh-private-key
+    - base64 -d ${HOME}/.ssh/key.b64 > ${HOME}/.ssh/id_ed25519
+    - chmod 600 ${HOME}/.ssh/id_ed25519
+    - export ANSIBLE_HOST_KEY_CHECKING=False
+    - az vm start -g rgtest -n monapp-dev-vm-web-01
+    - VM_IP=$(az vm show -d -g rgtest -n monapp-dev-vm-web-01 --query publicIps -o tsv)
+  script:
+    - ansible-playbook -i "$VM_IP," ansible/deploy.yml -u azureuser --private-key=${HOME}/.ssh/id_ed25519 -e "acr_name=${ACR_NAME}" -e "acr_server=${ACR_NAME}.azurecr.io" -e "image_tag=latest"
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"

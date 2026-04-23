@@ -1,0 +1,54 @@
+---
+- name: Déploiement de l'application
+  hosts: all
+  become: yes
+  gather_facts: no
+
+  tasks:
+    - name: Installer Docker
+      apt:
+        name: docker.io
+        state: present
+        update_cache: yes
+
+    - name: S'assurer que Docker est démarré
+      systemd:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Installer les dépendances Python pour Docker
+      apt:
+        name: python3-docker
+        state: present
+
+    - name: Installation az cli
+      shell: curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+      args:
+        creates: /usr/bin/az
+
+    - name: Connexion à Azure via l'identité de la VM
+      command: az login --identity
+
+    - name: Connexion à l'ACR via Managed Identity
+      shell: az acr login --name {{ acr_name }}
+
+    - name: Pull de la nouvelle image
+      community.docker.docker_image:
+        name: "{{ acr_server }}/mon-app"
+        tag: "{{ image_tag }}"
+        source: pull
+
+    - name: Stop et suppression de l'ancien conteneur
+      docker_container:
+        name: app
+        state: absent
+
+    - name: Lancement du nouveau conteneur
+      docker_container:
+        name: app
+        image: "{{ acr_server }}/mon-app:{{ image_tag }}"
+        state: started
+        restart_policy: always
+        published_ports:
+          - "80:80"
