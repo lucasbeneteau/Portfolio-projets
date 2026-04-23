@@ -1,4 +1,4 @@
-image: # image crée a partir de alpine:3.26
+image: # image crée a partir de alpine:3.26 : https://github.com/lucasbeneteau/Portfolio-projets/blob/main/projet-devops/image-runner-gitlab/Dockerfile
   name: registry.gitlab.com/lucasbeneteau-group/lb-project/azure-cli-custom 
   pull_policy: always
 

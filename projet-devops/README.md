@@ -1,4 +1,4 @@
-# Architecture Cloud & Automation (Projet Personnel)
+# Automation Cloud & CI/CD
 
 ## Présentation du Projet
 L'objectif était de monter en compétences sur les problématiques de **Cloud** et de **DevOps** en automatisant le cycle de vie complet d'une infrastructure sur Azure.

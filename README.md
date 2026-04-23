@@ -2,7 +2,7 @@
 
 | Projet | Technologies | Objectif |
 | :--- | :--- | :--- |
-| **[Cloud Automation & Zero Trust](./projet-devops)** | **Azure, Bicep, GitLab CI, Ansible, Docker** | **Automatisation complète d'une infrastructure (IaC) et déploiement applicatif sécurisé via pipeline CI/CD.** |
+| **[Automation Cloud & CI/CD](./projet-devops)** | **Azure, Bicep, GitLab CI, Ansible, Docker** | **Automatisation complète d'une infrastructure (IaC) et déploiement applicatif sécurisé via pipeline CI/CD.** |
 
 ---
 
