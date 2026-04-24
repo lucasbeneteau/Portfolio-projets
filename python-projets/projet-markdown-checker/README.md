@@ -11,4 +11,4 @@ Ce script parcourt récursivement les répertoires pour s'assurer que tous les l
 
 * **Scan récursif :** Analyse tous les fichiers `.md` de l'arborescence (en ignorant `.git` et `venv`).
 * Supporte les liens relatifs (`./` ou `../`) et les liens racines (`/`).
-* Affiche le fichier source, le numéro de la ligne concernée et le chemin complet du lien cassé pour faciliter la correction.
+* Affiche fichier source, numéro de la ligne et chemin complet du lien cassé.
