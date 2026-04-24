@@ -21,13 +21,13 @@ Il repose sur le principe de **l'infrastructure immuable** : aucun serveur n'est
 
 ### 1. Infrastructure as Code (Bicep)
 Développement d'une infrastructure dynamique et automatisée contenant entre autres:
-* **Modularité** : Découpage du code en [modules](./bicep/modules/) réutilisables (Réseau, Sécurité, Calcul) pour une maintenance facilitée.
+* **Modularité** : Découpage du code en [modules](./bicep/modules/) réutilisables pour une maintenance facilitée.
 * **Standardisation** : Automatisation du nommage des ressources et des profils de machines (Web/DB) pour garantir la cohérence des déploiements.
 * **Architecture pilotée par les données** : Utilisation de boucles et de fonctions avancées (`toObject`, `items`) pour générer automatiquement les ressources à partir d'un fichier de paramètres.
 * **Réseau & Sécurité** : Segmentation par sous-réseaux, isolation via NSG et sécurisation des flux sortants par NAT Gateway.
 
 ### 2. Automatisation & Déploiement (Ansible)
-Le [playbook](./ansible/deploy.yml) assure la mise en service applicative complète dès le premier boot :
+Le [playbook](./ansible/deploy.yml) assure la mise en service applicative:
 * **Provisionnement Docker** : Installation automatisée du moteur et des dépendances.
 * **Sécurité Identity-Based** : Authentification via l'Identité Managée Azure éliminant l'usage de mots de passe ou de tokens.
 * **Intégration ACR** : Connexion sécurisée au registre privé, pull de l'image et cycle de déploiement (`Stop` / `Update` / `Run`).
@@ -60,10 +60,9 @@ Le projet implémente les principes du moindre privilège pour sécuriser la cha
 
 ---
 
-## Conclusion
-Ce projet m'a permis de découvrir le DevOps et je souhaiterais aller plus loin, notamment en utilisant **Docker Compose**, en apprenant **Kubernetes** ou encore utiliser **Terraform** plutôt que Bicep.
-
-On pourrait améliorer ce projet dès maintenant de plusieurs manières notamment :
+## Piste d'évolution
+On pourrait améliorer ce projet de plusieurs manières, entre autres:
 * Utiliser deux services principal distincts : un pour créer les ressources et un autre pour gérer les accès (RBAC).
-* Évoluer vers **Docker Compose** pour gérer plusieurs services, ou **Azure Container Apps**.
+* Utiliser **Terraform** plutôt que Bicep pour être multi-cloud.
 * Centraliser les logs et les métriques sur un dashboard **Azure Monitor**.
+* Évoluer vers **Docker Compose** pour gérer plusieurs services, ou **Azure Container Apps**.
