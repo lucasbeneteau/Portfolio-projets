@@ -60,7 +60,7 @@ Le projet implémente les principes du moindre privilège pour sécuriser la cha
 
 ---
 
-## Piste d'évolution
+## Pistes d'évolution
 On pourrait améliorer ce projet de plusieurs manières, entre autres:
 * Utiliser deux services principal distincts : un pour créer les ressources et un autre pour gérer les accès (RBAC).
 * Utiliser **Terraform** plutôt que Bicep pour être multi-cloud.
