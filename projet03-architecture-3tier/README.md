@@ -30,7 +30,7 @@ L'infrastructure repose sur trois couches distinctes :
 
 ## Aperçu technique
 
-* [Voir Code source](./Code%20source)
+* [Voir Code source](./Code_source)
 * [Voir Configuration DNS](./Configuration_DNS)
 * [Voir Configuration Apache](./Configuration_apache)
 ## Stack technique

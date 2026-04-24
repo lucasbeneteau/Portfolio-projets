@@ -12,7 +12,7 @@ Concevoir l'architecture réseau d’un système d'information en définissant :
 
 ## Aperçu technique
 * [Voir plan d'adressage](./plan_adressage.xlsx)
-* [Voir Schema physique](./Schema%20physique.png)
+* [Voir Schema physique](./Schema_physique.png)
 
 ## Stack technique
 

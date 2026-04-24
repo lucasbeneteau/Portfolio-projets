@@ -34,7 +34,7 @@ Le [playbook](./ansible/deploy.yml) assure la mise en service applicative compl�
 
 ### 3. Pipeline CI/CD ([GitLab](./.gitlab-ci.yml))
 Automatisation complète:
-* **Image de build personnalisée** : Création d'une [image Docker](./docker-images-gitlab/Dockerfile) optimisée à l'usage du runner.
+* **Image de build personnalisée** : Création d'une [image Docker](./image-runner-gitlab/Dockerfile) optimisée à l'usage du runner.
 * **Validation & Preview** : Linting Bicep et prévisualisation des changements.
 * **IaC** : Déploiement automatique des ressources Azure.
 * **Supply Chain Docker** : Build et Push des images sur l'ACR privé Azure.
