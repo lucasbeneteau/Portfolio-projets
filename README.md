@@ -59,6 +59,12 @@ Les projets couvrent l’administration système, réseau, cloud et cybersécuri
 | **[Sécurisation SI (ANSSI)](./projet10-securisation-si)** | VLAN, Bastion, VPN, SIEM | Conception d’une architecture sécurisée selon les recommandations de l’ANSSI |
 | **[Pentest Active Directory](./projet11-pentest-ad)** | Kali Linux, BloodHound, CrackMapExec, Mimikatz | Test d’intrusion interne sur un domaine Active Directory |
 
+## Recommandation
+
+> **"Lucas a suivi la formation Administrateur Systèmes, Réseaux et Sécurité (ASRS) chez OpenClassrooms sous ma supervision. Étudiant sérieux, très investi et doté d’un bon niveau technique, il a su faire preuve d’autonomie, de rigueur et d’une réelle capacité à mener à bien des projets concrets en environnement professionnel."**
+>
+> — **Laurent Peyrac**, Professeur de l'Éducation Nationale & Tuteur de formation.
+
 ---
 
 # Projets Python
