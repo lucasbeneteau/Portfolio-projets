@@ -56,13 +56,12 @@ Les projets couvrent l’administration système, réseau, cloud et cybersécuri
 
 # Projets Personnels
 
+## Devops
 | Projet | Technologies | Objectif |
 | :--- | :--- | :--- |
 | **[Automation Cloud & CI/CD](./projet-devops)** | Azure, Bicep, GitLab CI, Ansible, Docker | Automatisation complète d'une infrastructure (IaC) et déploiement applicatif sécurisé via pipeline CI/CD. |
 
----
-
-# Projets Python
+## Python
 
 | Projet | Objectif |
 | :--- | :--- |
