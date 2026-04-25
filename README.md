@@ -1,11 +1,3 @@
-# Projets Personnels
-
-| Projet | Technologies | Objectif |
-| :--- | :--- | :--- |
-| **[Automation Cloud & CI/CD](./projet-devops)** | Azure, Bicep, GitLab CI, Ansible, Docker | Automatisation complète d'une infrastructure (IaC) et déploiement applicatif sécurisé via pipeline CI/CD. |
-
----
-
 # Projets Formation
 "Administrateur Systèmes, Réseaux et Sécurité"  
 Organisme de formation: **OpenClassrooms**  
@@ -32,8 +24,6 @@ Les projets couvrent l’administration système, réseau, cloud et cybersécuri
 | **[Sauvegarde & restauration](./projet05-backup-rsync)** | Linux, rsync, cron | Mise en place de stratégies de sauvegarde incrémentale et différentielle et procédure de restauration |
 | **[Supervision infrastructure](./projet06-supervision-nagios)** | Nagios, Rsyslog | Monitoring d’un serveur WordPress et centralisation des logs |
 
----
-
 ## Réseaux
 
 | Projet | Technologies | Objectif |
@@ -41,15 +31,11 @@ Les projets couvrent l’administration système, réseau, cloud et cybersécuri
 | **[Conception d’architecture réseau](./projet07-conception-reseau)** | VLAN, plan d’adressage, segmentation réseau | Conception d’une architecture réseau avec schéma physique, schéma logique VLAN et plan d’adressage IP |
 | **[Simulation réseau Cisco](./projet08-reseau-cisco)** | Packet Tracer, VLAN, OSPF, HSRP, ACL, LACP | Configuration d’un réseau d’entreprise |
 
----
-
 ## Cloud
 
 | Projet | Technologies | Objectif |
 | :--- | :--- | :--- |
 | **[Administration Azure](./projet12-cloud-azure)** | Ressources Azure, Entra ID, RBAC, Bicep | Déploiement et administration d’infrastructures cloud |
-
----
 
 ## Cybersécurité
 
@@ -64,6 +50,15 @@ Les projets couvrent l’administration système, réseau, cloud et cybersécuri
 > **"Lucas a suivi la formation Administrateur Systèmes, Réseaux et Sécurité (ASRS) chez OpenClassrooms sous ma supervision. Étudiant sérieux, très investi et doté d’un bon niveau technique, il a su faire preuve d’autonomie, de rigueur et d’une réelle capacité à mener à bien des projets concrets en environnement professionnel."**
 >
 > — **Laurent Peyrac**, Professeur de l'Éducation Nationale & Tuteur de formation.
+
+---
+
+
+# Projets Personnels
+
+| Projet | Technologies | Objectif |
+| :--- | :--- | :--- |
+| **[Automation Cloud & CI/CD](./projet-devops)** | Azure, Bicep, GitLab CI, Ansible, Docker | Automatisation complète d'une infrastructure (IaC) et déploiement applicatif sécurisé via pipeline CI/CD. |
 
 ---
 
