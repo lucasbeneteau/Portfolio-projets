@@ -56,10 +56,17 @@ Les projets couvrent l’administration système, réseau, cloud et cybersécuri
 
 # Projets Personnels
 
+
 ## Devops
 | Projet | Technologies | Objectif |
 | :--- | :--- | :--- |
 | **[Automation Cloud & CI/CD](./projet-devops)** | Azure, Bicep, GitLab CI, Ansible, Docker | Automatisation complète d'une infrastructure (IaC) et déploiement applicatif sécurisé via pipeline CI/CD. |
+
+## Virtualisation & Sauvegarde (Proxmox)
+| Projet | Technologies | Objectif |
+| :--- | :--- | :--- |
+| **[Infrastructure Virtualisée et Sauvegarde](./projet-proxmox)** | Proxmox VE, Proxmox Backup Server, Wireguard, OpenMediaVault, Azure blob | Déployer une infrastructure virtualisée intégrant une segmentation réseau, un accès VPN et une stratégie de sauvegarde 3-2-1 (Local/NAS/Cloud). |
+
 
 ## Python
 
