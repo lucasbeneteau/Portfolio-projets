@@ -9,7 +9,7 @@ Réalisation d'une infrastructure complète sur Proxmox VE simulant un environne
 * **Hyperviseur** : Proxmox VE 9.1.
 * **Réseau** : Linux Bridge (VLAN Aware), Routage L3, NAT/DNAT.
 * **Sécurité** : PVE Firewall (IPSet, Security Groups), VPN WireGuard.
-* **Stockage & Sauvegarde** : Proxmox Backup Server (PBS), NAS OpenMediaVault (SMB/CIFS).
+* **Stockage & Sauvegarde** : Proxmox Backup Server (PBS), NAS (OpenMediaVault).
 * **Cloud** : Azure Blob Storage, Rclone (Automation Bash via Service Principal).
 
 ---
@@ -31,7 +31,7 @@ Réalisation d'une infrastructure complète sur Proxmox VE simulant un environne
 Mise en place d'une politique de sauvegarde journalière:
 
 * **Continuité immédiate (Hôte Proxmox)** - Utilisation de **Snapshots** manuels avant chaque modification technique importante.
-* **Sauvegarde LAN** : Automatisation de sauvegardes incrémentales journalieres vers le NAS.
+* **Sauvegarde LAN** : Automatisation de sauvegardes incrémentales journalieres vers le NAS via SMB.
 * **Externalisation Cloud (Azure)** : Sauvegarde automatique des archives critiques vers un container **Azure Blob Storage** via Rclone et Service Principal.
 * **Tests de Restauration**.
 ---
