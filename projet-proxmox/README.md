@@ -31,7 +31,7 @@ Réalisation d'une infrastructure complète sur Proxmox VE simulant un environne
 Mise en place d'une politique de sauvegarde journalière:
 
 * **Continuité immédiate (Hôte Proxmox)** - Utilisation de **Snapshots** manuels avant chaque modification technique importante.
-* **Sauvegarde LAN** : Automatisation de sauvegardes incrémentales journalieres vers le NAS (OpenMediaVault) via SMB.
+* **Sauvegarde LAN** : Automatisation de sauvegardes incrémentales journalieres vers le NAS.
 * **Externalisation Cloud (Azure)** : Sauvegarde automatique des archives critiques vers un container **Azure Blob Storage** via Rclone et Service Principal.
 * **Tests de Restauration**.
 ---
@@ -41,10 +41,3 @@ Mise en place d'une politique de sauvegarde journalière:
 * **Hardening système et réseau** (Firewalling étendu, VPN, principe du moindre privilège).
 * **Stratégie de sauvegarde, résilience et restauration**.
 * **Virtualisation** (KVM et LXC).
-
----
-
-## Pistes d'Évolution
-* **IaC (Infrastructure as Code)** : Automatisation complète du déploiement via Terraform.
-* **Monitoring** : Déploiement d'une stack Prometheus/Grafana pour la surveillance des métriques.
-* **Haute Disponibilité** : Mise en place d'un cluster Proxmox avec réplication ZFS.
