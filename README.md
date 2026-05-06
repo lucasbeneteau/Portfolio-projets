@@ -77,8 +77,6 @@ Les projets couvrent l’administration système, réseau, cloud et cybersécuri
 
 
 
-<img width="1326" alt="ancienne_cartographie" src="https://github.com/user-attachments/assets/764d2566-bb07-48d1-8f35-f0705f762d2b" />
-<img width="9003" alt="nouvelle_cartographie" src="https://github.com/user-attachments/assets/e4c78bf6-216b-43be-bd07-29c5df0f10b4" />
 
 
 
