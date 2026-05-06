@@ -75,3 +75,9 @@ Les projets couvrent l’administration système, réseau, cloud et cybersécuri
 | :--- | :--- | :--- |
 | **[Automation Cloud & CI/CD](./projet-devops)** | Azure, Bicep, GitLab CI, Ansible, Docker | Automatisation complète d'une infrastructure (IaC) et déploiement applicatif sécurisé via pipeline CI/CD. |
 
+
+
+
+<img width="641" height="507" alt="schema_infrastructure" src="https://github.com/user-attachments/assets/9667078f-b72e-40b3-a85d-0b0f0786b4f4" />
+
+
