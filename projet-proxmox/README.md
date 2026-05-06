@@ -27,7 +27,7 @@ Réalisation d'une infrastructure complète sur Proxmox VE simulant un environne
 * **VPN WireGuard** : Déploiement d'une passerelle VPN pour un accès distant sécurisé aux interfaces de gestion et au RDP/SSH.
 * **IPSet** : Utilisation de listes d'IP dynamiques pour simplifier et renforcer la gestion des règles de filtrage.
 
-### 4. Stratégie de Sauvegarde (Règle 3-2-1)
+### 4. Stratégie de Sauvegarde (Règle 3-2-1) EN COURS
 Mise en place d'une politique de sauvegarde journalière:
 
 * **Continuité immédiate (Hôte Proxmox)** - Utilisation de **Snapshots** manuels avant chaque modification technique importante.
