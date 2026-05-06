@@ -1,3 +1,4 @@
+<img width="1271" height="721" alt="architecture-3tier" src="https://github.com/user-attachments/assets/02fdc25b-657c-4a53-9ad7-36ee938a9eb0" />
 # Projet 01 — Infrastructure Active Directory Multi-sites
 
 ## Objectif
