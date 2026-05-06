@@ -68,9 +68,10 @@ Les projets couvrent l’administration système, réseau, cloud et cybersécuri
 | :--- | :--- |
 | **[Backup Azure](/python-projets/projet-cloud-backup/)** | Compresser et envoyer des fichiers sur le Cloud Azure automatiquement. |
 | **[Analyseur de Logs Serveur](/python-projets/projet-log-analyzer/)** | Analyser des logs pour voir d'où vient le trafic et repérer les erreurs. |
+| **[Vérificateur de Liens Markdown](/python-projets/projet-markdown-checker/)** | Vérifier que tous les liens de ma documentation fonctionnent encore. |
 
 ## Devops
 | Projet | Technologies | Objectif |
 | :--- | :--- | :--- |
 | **[Automation Cloud & CI/CD](./projet-devops)** | Azure, Bicep, GitLab CI, Ansible, Docker | Automatisation complète d'une infrastructure (IaC) et déploiement applicatif sécurisé via pipeline CI/CD. |
-| **[Vérificateur de Liens Markdown](/python-projets/projet-markdown-checker/)** | Vérifier que tous les liens de ma documentation fonctionnent encore. |
+
