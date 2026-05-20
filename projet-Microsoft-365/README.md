@@ -28,7 +28,7 @@ L'objectif principal est d'être directement opérationnel sur ces technologies 
 * **Mises à jour :** Configuration Update Rings Windows.
 
 ### 3. Exchange & Defender
-* **Récipients :** Gestion des boîtes (utilisateurs, partagées, salles), listes d'adresses (GAL, OAB, ABP) et groupes de distribution.
+* **Récipients & Address list :** Gestion des boîtes (utilisateurs, partagées, salles), listes d'adresses (GAL, OAB, ABP) et groupes de distribution.
 * **Flux Mail & Sécurité :** Implémentation SPF, DKIM, DMARC et règles de transport.
 * **Protection Defender :** Configuration des stratégies anti-spam, anti-phishing, anti-malware et politiques d'alerte.
 * **Troubleshooting :** Analyse de headers, Message Trace et Connectivity Analyzer.
