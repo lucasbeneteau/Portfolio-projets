@@ -1,7 +1,7 @@
 # Infrastructure Virtualisée (Proxmox VE)
 
 ## Présentation du Projet
-Réalisation d'une infrastructure complète sur Proxmox VE avec **segmentation réseau (NAT,VLAN)** et **durcissement Firewall**.
+Réalisation d'une infrastructure sur Proxmox VE avec **segmentation réseau (NAT,VLAN)** et **durcissement Firewall**.
 
 ---
 
