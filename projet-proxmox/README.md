@@ -22,8 +22,3 @@ Réalisation d'une infrastructure complète sur Proxmox VE avec **segmentation r
 ### 3. Sécurisation des Accès (Hardening)
 * **Filtrage** : Seuls les flux necéssaires sont autorisés via des règles de pare-feu.
 * **IPSet** : Listes d'IP dynamiques.
-
-## Compétences acquises
-* **Design d'architecture réseau virtuelle** et segmentation complexe L2/L3.
-* **Hardening système et réseau** (Firewalling, principe du moindre privilège).
-* **Virtualisation** (KVM et LXC).
