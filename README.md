@@ -1,5 +1,13 @@
-# Projets Formation
-"Administrateur Systèmes, Réseaux et Sécurité"  
+# Projets Personnels Récents:
+
+## Virtualisation & Sauvegarde (Proxmox)
+| Projet | Technologies | Objectif |
+| :--- | :--- | :--- |
+| **[Infrastructure Virtualisée](./projet-proxmox)** | Proxmox VE | Déployer une infrastructure virtualisée intégrant une segmentation réseau |
+
+---
+
+# Projets Formation "Administrateur Systèmes, Réseaux et Sécurité"  
 Organisme de formation: **OpenClassrooms**  
 
 Formation intensive d'un an articulée autour de 12 projets professionnels
@@ -52,14 +60,6 @@ Les projets couvrent l’administration système, réseau, cloud et cybersécuri
 > — **Laurent Peyrac**, Professeur de l'Éducation Nationale & Tuteur de formation.
 
 ---
-
-
-# Projets Personnels
-
-## Virtualisation & Sauvegarde (Proxmox)
-| Projet | Technologies | Objectif |
-| :--- | :--- | :--- |
-| **[Infrastructure Virtualisée et Sauvegarde](./projet-proxmox)** | Proxmox VE, Proxmox Backup Server, Wireguard, OpenMediaVault, Azure blob | Déployer une infrastructure virtualisée intégrant une segmentation réseau, un accès VPN et une stratégie de sauvegarde 3-2-1 (Local/NAS/Cloud). |
 
 
 ## Python
