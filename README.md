@@ -1,5 +1,10 @@
 # Projets Personnels Récents:
 
+## Administration Microsoft 365
+| Projet | Technologies | Objectif |
+| :--- | :--- | :--- |
+| **[Microsoft 365](./projet-Microsoft-365/README.md)** | Entra ID, Intune, Exchange, SharePoint, Azure, Defender, Purview | Administrer et sécuriser Microsoft 365 |
+
 ## Virtualisation Proxmox
 | Projet | Technologies | Objectif |
 | :--- | :--- | :--- |
