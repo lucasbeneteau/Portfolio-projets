@@ -1,9 +1,9 @@
 # Projets Personnels Récents:
 
-## Virtualisation & Sauvegarde (Proxmox)
+## Virtualisation Proxmox
 | Projet | Technologies | Objectif |
 | :--- | :--- | :--- |
-| **[Infrastructure Virtualisée](./projet-proxmox)** | Proxmox VE | Déployer une infrastructure virtualisée intégrant une segmentation réseau |
+| **[Proxmox](./projet-proxmox)** | Proxmox VE | Déployer une infrastructure virtualisée intégrant une segmentation réseau |
 
 ---
 
