@@ -11,7 +11,7 @@ L'objectif principal est d'être directement opérationnel sur ces technologies 
 * SharePoint Online & OneDrive.
 * Microsoft Azure.
 
-## Architecture & Réalisations
+## Réalisations
 
 ### 1. Gestion des Identités et Ressources Azure (Entra ID/Azure)
 * **Gestion Utilisateurs et Groupes :** Création, modification et suppression (comptes internes, invités, groupes).
